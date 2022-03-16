@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: white;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header{
+    padding: 30px 100px;
+}
+
+#logo{
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(5, 143, 148, 0.705);
+    text-decoration: none;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0,0.1);
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+header nav a{
+    text-decoration: none;
+    color:rgb(90, 89, 89);
+}
+header nav li{
+    list-style: none;
+}
+#sign-up{
+    border: 1.5px solid rgba(5, 143, 148, 0.705);
+    padding: 10px 30px;
+}
+#container1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+#container1 h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 70px;
+    color: rgb(73, 69, 69);
+}
+strong{
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    color:rgba(5, 143, 148, 0.705);
+    display:block
+
+}
+#container1 p{
+    color:rgb(73, 69, 69);
+}
+#content1{
+    width: 450px;
+}
+#container1 ul{
+    list-style: none;
+    margin: 50px 0;
+    display:flex;
+    gap: 20px
+}
+#list1 a{
+    text-decoration: none;
+    color: white;
+    background-color:rgba(5, 143, 148, 0.705);
+    padding: 10px 30px;
+    /* border: 1px solid rgba(5, 143, 148, 0.705); */
+    box-shadow: 0px 15px 10px rgba(0, 0, 0,0.3), 
+                0px 20px 15px rgba(0, 0, 0,0.2);
+}
+#list2 a{
+    text-decoration: none;
+    color: rgba(5, 143, 148, 0.705);
+    border: 1px solid rgba(5, 143, 148, 0.705);
+    padding: 10px 30px;
+}
+ img{
+     display: block;
+width: 300px;
+height: 550px;
+transform: translateY(-70px) ;
+margin-right: 5px;
+
+}
+.content2{
+    position: relative;
+}
+
+.cover, .curve {
+     position: absolute ;
+     top: 0;
+     left: 0;
+}
+.cover{
+    width: 310px;
+    height: 500px;
+    background-color: #d7fcff;
+    border-radius: 200px 200px 0 0;
+    transform: translateX(-12px) ;
+}
+.curve{
+    width: 310px;
+    height: 500px;
+    background-color: transparent;
+    border: 1px solid rgba(5, 143, 148, 0.705);
+    border-radius: 200px 200px 0 0;
+}
+
+.company{
+    height: 100px;
+    background-color: #f8f8f8;
+    transform: translateY(-100px);
+}
